@@ -9,19 +9,25 @@
             left: -36.33685302734375px;
             top: -210.040771484375px;
             border-radius: 5px;
+            flex: 1;
 
         }
 
-        img {
-            border: 1px;
-            padding: 1px;
-            margin: 1px;
-            border-radius: 5em;
-            background-color: rgb(55, 206, 158)
+        .img_smallpizza{
+            width: 160px;
+            height: 160px;
+        }
+        .img_mediumpizza{
+            width: 180px;
+            height: 180px;
+        }
+        .img_largepizza{
+            width: 200px;
+            height: 200px;
         }
 
         body {
-            background-color: rgb(102, 69, 133);
+            background-color: rgb(59, 6, 14);
         }
 
         @media (min-width: 900px) {
@@ -30,28 +36,32 @@
                 display: inline-flexbox;
                 border-radius: 5px;
                 
-                
-
-
-
             }
         }
 
         h1 {
-            color: rgb(8, 39, 11);
+            color: rgb(104, 126, 23);
             text-align: center;
+            font-family:Macondo;
+            font-size: xxx-large;
+            text-shadow: 5px cadetblue;
+            font-weight: 1000;
         }
 
         h2 {
-            color: black;
+            color: rgb(226, 215, 215);
             display: flex;
+        }
+        li {
+            color: white;
+            font-size: larger;
         }
 
         footer {
-            background-color: rgb(25, 174, 201);
+            background-color: rgb(104, 126, 23);
             text-align: left;
-            display: flex;
-            border-radius: 5em;
-
+            flex: 1;
+            color: white;
+            font-size: medium;
         }
     
