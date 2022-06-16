@@ -10,6 +10,7 @@
             top: -210.040771484375px;
             border-radius: 5px;
             flex: 1;
+            align-items: center;
 
         }
 
@@ -29,11 +30,15 @@
         @media (min-width: 480px) {
             body {
                 background-color: rgb(29, 6, 10);
+                align-items: center;
+                align-content: center;
             }
         }
         @media (min-width: 680px) {
         body {
             background-color: rgb(243, 231, 233);
+            align-items: center;
+            align-content: center;
         }
     }
 
@@ -48,6 +53,8 @@
                 display: flex;
                 display: inline-flexbox;
                 border-radius: 5px;
+                align-items: center;
+                align-content: center;
                 
             }
         }
@@ -59,6 +66,7 @@
             font-size: xxx-large;
             text-shadow: 5px cadetblue;
             font-weight: 1000;
+    
         }
 
         h2 {
@@ -76,5 +84,6 @@
             flex: 1;
             color: white;
             font-size: medium;
+            padding: 6px;
         }
     
